@@ -1,33 +1,24 @@
-# Python Projects Collection
+# 🏦 Python OOP Banking System
 
-A collection of Python projects and exercises including games, utilities, and OOP examples.
+A simple **Object-Oriented Programming (OOP)** project in Python that simulates a basic banking system.  
+The project demonstrates core OOP concepts such as **classes, inheritance, exception handling, and method overriding**.
 
-## Projects Included
+---
 
-- **Bank Account Management** - OOP project for managing bank accounts
-- **Number Guessing Game** - Interactive number guessing game
-- **Word Guessing Game** - Guess the word game
-- **Password Manager** - Password management utility
-- **PIG Game** - Dice game implementation
-- **Rock Paper Scissors** - Classic game
-- **Snake Game** - Classic snake game
-- **Quiz Application** - Quiz program
-- **Strong Password Generator** - Password generation utility
-- **Translator** - Translation utility
+## 📌 Features
 
-## Requirements
+- Create bank accounts with an initial balance
+- Deposit and withdraw money
+- Transfer money between accounts
+- Handle insufficient balance using custom exceptions
+- Interest-based accounts
+- Savings accounts with withdrawal fees
 
-- Python 3.x
+---
 
-## Usage
+## 🧱 Project Structure
 
-Each project can be run independently. Navigate to the project directory and run:
-
-```bash
-python <filename>.py
-```
-
-## License
-
-This project is open source and available for educational purposes.
-
+```text
+.
+├── bank_accounts.py   # Core banking classes and logic
+└── oop_project.py     # Example usage and testing
